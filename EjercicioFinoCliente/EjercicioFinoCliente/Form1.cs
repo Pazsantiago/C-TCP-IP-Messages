@@ -23,10 +23,10 @@ namespace EjercicioFinoCliente
         IPEndPoint remoteEP;
         Socket h;
         Boolean finish;
-        public string recibirTexto(Socket h)
+        public string recibirTexto()
         {
             byte[] buffer = new byte[1024];
-            int p = h.Receive(buffer);
+            int p = h.ReceiveAsync(buffer, SocketFlags.None);
             string msgRecibido = ASCIIEncoding.ASCII.GetString(buffer, 0, p);
             finish = true;
             return msgRecibido;
@@ -36,8 +36,7 @@ namespace EjercicioFinoCliente
         private void btnRecibir_Click(object sender, EventArgs e)
         {
             listener.Listen(5);
-            h = listener.Accept();
-            tbMensajes.Text = recibirTexto(h);
+            tbMensajes.Text = recibirTexto();
         }
 
         private void btenviarMsg_Click(object sender, EventArgs e)
