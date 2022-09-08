@@ -1,0 +1,11 @@
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\bin\Debug\EjercicioFinoTCP.exe.config
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\bin\Debug\EjercicioFinoTCP.exe
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\bin\Debug\EjercicioFinoTCP.pdb
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.csproj.SuggestedBindingRedirects.cache
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.Properties.Resources.resources
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.csproj.GenerateResource.cache
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.exe
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.pdb
+C:\Users\santi\source\repos\EjercicioFinoTCP\EjercicioFinoTCP\obj\Debug\EjercicioFinoTCP.Servidor.resources

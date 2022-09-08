@@ -1,0 +1,11 @@
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\bin\Debug\EjercicioFinoCliente.exe.config
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\bin\Debug\EjercicioFinoCliente.exe
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\bin\Debug\EjercicioFinoCliente.pdb
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.csproj.AssemblyReference.cache
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.csproj.SuggestedBindingRedirects.cache
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.Properties.Resources.resources
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.csproj.GenerateResource.cache
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.exe
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.pdb
+C:\Users\santi\source\repos\EjercicioFinoCliente\EjercicioFinoCliente\obj\Debug\EjercicioFinoCliente.Cliente.resources
