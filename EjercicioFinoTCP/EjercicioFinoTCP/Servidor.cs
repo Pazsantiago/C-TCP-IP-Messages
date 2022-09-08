@@ -34,10 +34,10 @@ namespace EjercicioFinoTCP
             listener.Bind(remoteEP);
             listener.Listen(5);
         }
-        public string recibirTexto(Socket h)
+        public string recibirTexto()
         {
             byte[] buffer = new byte[1024];
-            int p = h.Receive(buffer);
+            int p = listener.Receive(buffer);
             string msgRecibido = ASCIIEncoding.ASCII.GetString(buffer, 0, p);
             finish = true;
             return msgRecibido;
@@ -56,7 +56,7 @@ namespace EjercicioFinoTCP
         private void btrecibirMsg_Click(object sender, EventArgs e)
         {
             Socket h = listener.Accept();
-            tbMensajes.Text = recibirTexto(h);
+            tbMensajes.Text = recibirTexto();
         }
 
         private void enviarMensajebtn_Click(object sender, EventArgs e)
