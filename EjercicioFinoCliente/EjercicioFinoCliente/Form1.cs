@@ -52,7 +52,7 @@ namespace EjercicioFinoCliente
         {
             empezarSv.BackColor = Color.Green;
             servidorHost = Dns.GetHostEntry("localHost");
-            serverIP = servidorHost.AddressList[0];
+            serverIP = servidorHost.AddressList[1];
             int puerto = 50288;
             remoteEP = new IPEndPoint(serverIP, puerto);
             listener = new Socket(serverIP.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
