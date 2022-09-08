@@ -62,7 +62,8 @@ namespace EjercicioFinoTCP
         private void enviarMensajebtn_Click(object sender, EventArgs e)
         { 
             byte[] mensaje = Encoding.ASCII.GetBytes(tbMensajeEnviar.Text);
-            listener.Close();
+            listener.SendAsync(mensaje, SocketFlags.None);
+            
         }
     }
 }
