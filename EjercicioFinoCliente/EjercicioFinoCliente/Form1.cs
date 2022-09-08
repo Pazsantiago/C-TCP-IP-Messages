@@ -35,7 +35,7 @@ namespace EjercicioFinoCliente
 
         private void btnRecibir_Click(object sender, EventArgs e)
         {
-            listener.Listen(1);
+            listener.Listen(5);
             h = listener.Accept();
             tbMensajes.Text = recibirTexto(h);
         }
