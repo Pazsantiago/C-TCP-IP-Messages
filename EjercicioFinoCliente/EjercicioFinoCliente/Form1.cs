@@ -26,7 +26,7 @@ namespace EjercicioFinoCliente
         public string recibirTexto()
         {
             byte[] buffer = new byte[1024];
-            int p = h.ReceiveAsync(buffer, SocketFlags.None);
+            int p = listener.ReceiveAsync(buffer, SocketFlags.None);
             string msgRecibido = ASCIIEncoding.ASCII.GetString(buffer, 0, p);
             finish = true;
             return msgRecibido;
