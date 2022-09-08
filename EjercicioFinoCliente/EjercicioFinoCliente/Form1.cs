@@ -44,7 +44,7 @@ namespace EjercicioFinoCliente
         {
             
             byte[] mensaje = Encoding.ASCII.GetBytes(tbMensajeEnviar.Text);
-            listener.Send(mensaje);
+            listener.SendAsync(mensaje, SocketFlags.None);
             tbMensajeEnviar.Text = "Mensaje Enviado";
             listener.Close();
             //Application.Exit();
