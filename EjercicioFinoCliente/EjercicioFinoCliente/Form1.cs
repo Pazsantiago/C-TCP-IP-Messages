@@ -46,7 +46,8 @@ namespace EjercicioFinoCliente
             byte[] mensaje = Encoding.ASCII.GetBytes(tbMensajeEnviar.Text);
             listener.Send(mensaje);
             tbMensajeEnviar.Text = "Mensaje Enviado";
-            Application.Exit();
+            listener.Close();
+            //Application.Exit();
         }
 
         private void empezarSv_Click(object sender, EventArgs e)
